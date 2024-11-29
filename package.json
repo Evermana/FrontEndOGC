@@ -1,31 +1,32 @@
 {
-  "name": "",
+  "name": "front-end-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Frontend for my project",
   "type": "module",
-  "license": "AGPL-version-3.0",
+  "license": "AGPL-3.0",
   "private": false,
   "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/yourusername/your-repository"
   },
-  "bugs": "",
+  "bugs": {
+    "url": "https://github.com/yourusername/your-repository/issues"
+  },
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://yourwebsite.com"
   },
   "contributors": [],
   "scripts": {
     "dev": "npx parcel --port 8000 index.html",
-    "test": ""
+    "build": "parcel build index.html --dist-dir dist"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
